@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 450px;
+  overflow: hidden;
+}
+
+.display {
+  display: flex;
+  align-self: center;
+  height: 55%;
+  border: rgb(145, 144, 144) solid;
+  width: 95%;
+  font-size: 50px;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 210px;
+  border: rgb(32, 23, 23) solid 2px;
+  margin: 5px;
+}
+
+.createPlayer {
+  border: none;
+  width: 100px;
+  height: 80px;
+  align-self: flex-start;
+  justify-self: center;
+}
+
+div h1 {
+  align-self: center;
+}
+
+div button {
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  width: 95%;
+  height: 23px;
+  align-self: center;
+  outline-style: none;
+}
+
+.fa:active {
+  box-shadow: 2px 2px 3px 0 rgb(99, 97, 97) inset;
+}
+
+.fa:hover {
+  background: rgb(238, 235, 235);
+}
+
+.fa-plus-circle {
+  margin-top: 5px;
+}
+
+.fa-minus-circle {
+  color: red;
+}

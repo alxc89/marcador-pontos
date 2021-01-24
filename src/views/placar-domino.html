@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/placar-domino-uno/styles/style.css" />
+    <title>Marcador de Pontos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <a href="/" class="fa fa-home" aria-hidden="true"> Home</a>
+
+      <div class="createPlayer">
+        <input type="text" class="namePlayer" id="namePlayer" />
+        <button id="createPlayer" onclick="createPlayer()">
+          Criar Jogador
+        </button>
+        <button id="resetGame" onclick="clearGame()">Zerar Jogo</button>
+      </div>
+      <section class="principal" id="principal"></section>
+    </main>
+    <script src="/placar-domino-uno/javascript/index.js"></script>
+  </body>
+</html>
