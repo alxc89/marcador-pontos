@@ -7,13 +7,44 @@
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+label {
+  display: block;
+}
+
 .principal {
   width: 100vw;
   height: 100vh;
 }
 
-.placar-canastra {
+.create {
   display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
+
+.btnCreateTeam {
+  position: absolute;
+  margin-top: -50px;
+  height: 2rem;
+  align-self: center;
+}
+
+.createTeam {
+  display: flex;
+  justify-content: space-around;
+  background: #569855;
+  height: 20em;
+  width: 40em;
+}
+
+.placar-canastra {
+  display: none;
   justify-content: space-around;
   width: 100%;
   height: 80%;
